@@ -1,1 +1,2 @@
 # Enhaighter
+This repository houses the source code of the Enhaighter plugin composed of the cascade connection of a five-band equalizer and a harmonic exciter. The equalizer is made up of a high pass, a lowshelf, a bell, a highshel and a lowpass.
