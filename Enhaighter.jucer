@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Wx5KRf" name="Enhaighter" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginManufacturer="MadeByJose">
+  <MAINGROUP id="rgxULT" name="Enhaighter">
+    <GROUP id="{E11D1BF2-7998-510D-275D-D514BA5333BF}" name="Source">
+      <FILE id="fCOipn" name="feel2.jpg" compile="0" resource="1" file="Assets/feel2.jpg"/>
+      <FILE id="danXxQ" name="Felix_Orange.png" compile="0" resource="1"
+            file="Assets/Felix_Orange.png"/>
+      <FILE id="CNpc97" name="Royal_Flush.png" compile="0" resource="1" file="Assets/Royal_Flush.png"/>
+      <FILE id="ZhwC05" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="w2bEwQ" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="D7yMDE" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="iNsm1U" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="z2q5ik" name="zolzer.h" compile="0" resource="0" file="Source/zolzer.h"/>
+      <FILE id="vOuVod" name="filmStrip.h" compile="0" resource="0" file="Source/filmStrip.h"/>
+      <FILE id="xHLUec" name="feel.jpg" compile="0" resource="1" file="Assets/feel.jpg"/>
+      <FILE id="kmLm5I" name="7-up.png" compile="0" resource="1" file="Assets/7-up.png"/>
+      <FILE id="Jz9nhW" name="Donald_Duck.png" compile="0" resource="1" file="Assets/Donald_Duck.png"/>
+      <FILE id="lyCxHN" name="knob.png" compile="0" resource="1" file="Assets/knob.png"/>
+      <FILE id="prtqJF" name="ENHAIGHTER.png" compile="0" resource="1" file="Assets/ENHAIGHTER.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MaxiHighTer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="MaxiHighTer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Downloads/Programas/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\Jose Manuel Arias\Downloads\juce-7.0.10-windows\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
